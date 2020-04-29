@@ -5,8 +5,8 @@
 body {
     width: 100%;
     margin: auto;
-    overflow-y: scroll;
-    height: 100%;
+    overflow-y: visible;
+    height: auto;
 }
 
 nav > ul {
@@ -85,9 +85,6 @@ main > p {
     flex-basis: 50%;
     max-width: 60%;
     font-size: 1.3rem;
-    background-image: url("inflation-945.png");
-    background-repeat: no-repeat;
-    background-position: top 80rem left 5%;
 
 }
 
@@ -130,8 +127,19 @@ main > p {
 }
 
 */
+/*
 .back-img {
 
     width: inherit;
     height: 100%;
+}*/
+.grid-background {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    background-image: url("inflation-945.png");
+    background-repeat: no-repeat;
+    background-position: top 0 left 0;
+
 }
