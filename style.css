@@ -75,6 +75,7 @@ main > p {
 }
 
 .main-content {
+    position: relative;
     padding-top: 8rem;
 
     padding-left: 5rem;
@@ -82,7 +83,7 @@ main > p {
     /*    width: inherit;*/
     align-self: center;
     line-height: 1.5rem;
-    flex-basis: 50%;
+    /*    flex-basis: 50%;*/
     max-width: 60%;
     font-size: 1.3rem;
 
@@ -116,6 +117,37 @@ main > p {
     padding-right: 70%;
 }
 
+
+
+
+
+
+/*
+.theory {
+    padding-left: 25%;
+    position: absolute;
+    padding-top
+
+}
+
+
+.theory > p {
+    padding-top: 69%;
+}
+
+
+
+.theory > img {
+
+    width: 50%;
+
+    padding-top: 70%;
+
+    object-fit: contain;
+
+}
+*/
+
 /*
 
 .x {
@@ -134,12 +166,40 @@ main > p {
     height: 100%;
 }*/
 .grid-background {
-    width: 100%;
+    max-width: 80%;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto auto;
+    grid-template-rows: repeat(5, 1fr);
+    /*
     background-image: url("inflation-945.png");
     background-repeat: no-repeat;
-    background-position: top 0 left 0;
+    background-position: left 5rem top 1rem;
+    background-origin: border-box;
+    background-size: contain;
+*/
+    /*    object-fit: scale-down;*/
+    z-index: 1;
+    grid-gap: 5rem;
+
 
 }
+
+.grid-background > p:first-child {
+    grid-area: 1/1/2/-1;
+
+}
+
+.grid-background > p:nth-child(2) {
+    grid-area: 2/1/3/2;
+}
+
+.grid-background > p:nth-child(3) {
+    grid-area: 2/3/3/4;
+}
+
+.grid-background > p:nth-child(4) {
+    grid-area: 2/4/3/5;
+}
+
+main > p {}
