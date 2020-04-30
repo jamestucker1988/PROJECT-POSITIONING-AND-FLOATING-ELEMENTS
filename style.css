@@ -225,5 +225,30 @@ main > img {
 
 
 .footer1 {
+    display: flex;
+    justify-content: space-between;
+    /*    flex-basis: 0.5rem;*/
+}
+
+.footer1 > button {
+    flex-grow: 1;
+    flex-shrink: 1;
+    /*    flex-basis: aut
+    ;*/
+    max-width: 1 rem;
+
+    margin-right: 50%;
+    ;
+}
+
+.footer > ul {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.footer1 > ul > li {
+    list-style: none;
     display: inline;
+
 }
