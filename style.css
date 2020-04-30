@@ -252,3 +252,26 @@ main > img {
     display: inline;
 
 }
+
+.bottom-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) grid-template-rows: repeat(3, 1fr);
+}
+
+.bottom-container-main {
+    grid-area: 1/1/4/4;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+
+.bottom-container-main > div > img {
+    max-width: 100%;
+    border: 1px solid red;
+
+}
+
+/*
+repeat(auto-fit, minmax(150px, 1fr));
+
+.bottom-container-main {}*/
