@@ -2,6 +2,12 @@
     font-size: 1rem;
 }
 
+main > p:first-child {
+    font-weight: 900;
+    font-size: 2rem;
+    padding-bottom: 3rem;
+}
+
 body {
     width: 100%;
     margin: auto;
@@ -15,15 +21,16 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 1px solid yellow;
+    align-items: flex-start;
     list-style: none;
     width: auto;
-    height: 5%;
+    height: auto;
+    background-color: cornsilk;
 }
 
 nav > img {
 
-    height: auto;
+    height: 0%;
     width: 10%;
 
     padding-left: 35%;
@@ -39,14 +46,12 @@ nav > img {
 
 nav ul:nth-child(3) {
     align-self: flex-start;
-    border: 1px solid red;
+
+
 }
 
-/*
-.nav-left {
-    display: inline;
-}
-*/
+
+
 
 ul > li {
     vertical-align: middle;
@@ -71,6 +76,7 @@ main {
     padding-left: auto;
     line-height: 1rem;
     padding-left: 10%;
+    padding-top: 5rem;
 }
 
 .alan_guth > img {
@@ -125,6 +131,8 @@ main {
     width: 70%;
     padding-left: 5rem;
     height: auto;
+    font-size: 1rem;
+    line-height: 1rem;
 }
 
 .grid-container > p {
@@ -139,7 +147,7 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    background-image: url("inflation-945.png");
+    background-image: url("image/inflation-945.png");
     background-repeat: no-repeat;
     background-position: left 0rem top 1rem;
     background-origin: border-box;
@@ -149,13 +157,49 @@ main {
     padding-top: 15rem;
 }
 
+.grid-container > span:nth-child(3) {
+    margin-right: auto;
+    /*    border-top: 1px solid red;*/
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 0.8rem;
+    border-spacing: 5%;
+
+}
+
+.grid-container > span:nth-child(3)::before {
+    display: " ";
+    border-top: 1px solid orange;
+    /*
+        margin-bottom: 2rem;
+        border-bottom-width: medium;
+*/
+}
+
+iframe {
+    width: 60%;
+    height: 400px;
+    margin-left: 100%;
+    align-self: center;
+
+}
+
+article {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+
+
+}
+
 .tele > img {
     width: 70%;
+    padding-top: 5rem;
 }
 
 .footer {
     display: inline-block;
-    border: 1px solid grey;
+
+
 }
 
 footer > div {
