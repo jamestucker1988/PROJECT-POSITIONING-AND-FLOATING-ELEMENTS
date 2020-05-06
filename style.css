@@ -13,7 +13,7 @@ body > p:nth-child(2) {
     position: absolute;
     text-align: justify;
     width: 60%;
-    padding-left: 20rem;
+    padding-left: 18rem;
 }
 
 /*
@@ -22,10 +22,11 @@ body > p:nth-child(2) {
 }
 */
 .tele p {
-    padding-left: 20%;
+    /*    padding-left: 20%;*/
     font-family: fantasy;
     font-size: 0.8rem;
     padding-bottom: 3rem;
+    line-height: 1rem;
 }
 
 /*
@@ -86,7 +87,6 @@ nav > img {
 }
 
 .date > ul {
-
     list-style: none;
     /*
     display: grid;
@@ -99,14 +99,10 @@ nav > img {
     border: 1px solid red;
     max-width: 100%;
     /*    border: 1px solid yellow;*/
-/*    align-self: flex-end;*/
-
-
+    /*    align-self: flex-end;*/
 }
 
 ul > li {
-
-
     padding: 0.5rem;
     list-style: none;
 }
@@ -125,7 +121,6 @@ ul > li {
     text-align: justify-all;
 }
 */
-
 : .newyork > ul > li {
     padding: auto 0.5rem;
     width: auto;
@@ -199,6 +194,7 @@ article {
     width: 30%;
     padding-left: 40%;
     font-size: 1.5rem;
+    line-height: 1.5rem;
 }
 
 .grid-container {
@@ -342,6 +338,7 @@ article {
     grid-gap: 2rem;
     max-width: 60%;
     padding-left: 30%;
+    /*    border-bottom: 1px solid red;*/
 }
 
 .bottom-container > strong {
@@ -366,7 +363,7 @@ article {
 */
 #x {
     grid-area: 3/1/4/2;
-    color: red;
+    color: grey;
 }
 
 .bottom-container-main2 {
@@ -388,8 +385,10 @@ aside {
     align-items: space-between;
     justify-content: flex-start;
     height: 100%;
-    /*    border-bottom: 1px solid grey;*/
+    /*    border-bottom: 1px solid yellow;*/
     padding-left: 5%;
+    /*    border-left: 1px solid grey;*/
+    /*    border: 1px solid red;*/
 }
 
 aside div {
@@ -414,6 +413,7 @@ aside div {
     max-width: 70%;
     padding-left: 20%;
     padding-top: 5rem;
+    /*    border: 1px solid grey;*/
 }
 
 .newyork > div:first-child {
@@ -423,9 +423,45 @@ aside div {
     justify-content: space-between;
 }
 
+.newyork ul:last-child {
+    border-left: 1px solid grey;
+}
+
 .newyork > div:nth-child(2) {
     grid-row: 2/3;
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+}
+
+.li-small {
+    font-size: 0.8rem;
+    /*    border-top: 1px solid red;*/
+}
+
+/*
+#li-small {
+    border-top: 1px solid grey;
+}
+*/
+#li-small1 {
+    border-bottom: 1px solid grey;
+}
+
+/*
+ul:first-child {
+    border: 1px solid orange;
+}
+*/
+.underline {
+
+    /*    width: 50%;*/
+    height: 0;
+    margin-left: 20%;
+    margin-right: 22%;
+    /*    padding-right: none;*/
+    display: '';
+    border-top: 1px solid grey;
+    /*    padding-left: 30%;*/
+    /*    margin-left: 50%;*/
 }
