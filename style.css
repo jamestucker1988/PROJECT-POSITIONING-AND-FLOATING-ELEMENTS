@@ -4,9 +4,11 @@
 
 body > p:nth-child(2) {
     width: 70%;
-    padding-left: 50%;
+    padding-left: 40%;
     font-size: 1.8rem;
     font-weight: 800;
+    font-style: oblique;
+    line-height: 2rem;
 }
 
 .alan_guth > p {
@@ -51,6 +53,18 @@ body {
 */
 }
 
+.fa-facebook,
+.fa-twitter-square,
+.fa-envelope,
+.fa-share,
+.material-icons {
+    background-color: black;
+    color: #eee;
+    /*    border-radius: 70%;*/
+    border: none;
+
+}
+
 nav {
     position: sticky;
     top: 0;
@@ -74,6 +88,14 @@ nav > img {
 
 .nav-ul {
     display: inline-flex;
+
+}
+
+
+li button {
+
+
+    background-color: rgb(86, 123, 149);
 }
 
 .date {
@@ -318,7 +340,8 @@ article {
     height: 1.8rem;
     margin-right: 20%;
     /*    margin-left: 5%;*/
-    background-color: blue;
+    background-color: rgb(86, 123, 149);
+    ;
 }
 
 .footer1 > span ul {
