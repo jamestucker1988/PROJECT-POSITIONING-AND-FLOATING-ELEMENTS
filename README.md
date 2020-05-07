@@ -9,15 +9,15 @@ This is an assigned project where we were supposed to replicate/clone a Youtube 
 
 ### Top of the webpage
 ​
-![screenshot]()
+![screenshot](Screenshot at 2020-05-07 12-15-03.png)
 
 ### Middle of the webpage
 
-![screenshot 2]()
+![screenshot 2](Screenshot at 2020-05-07 12-15-55.png)
 
 ### Bottom of the webpage
 
-![screenshot 3]()
+![screenshot 3](Screenshot at 2020-05-07 12-16-36.png)
 ​
 ## Built With
 - HTML5
