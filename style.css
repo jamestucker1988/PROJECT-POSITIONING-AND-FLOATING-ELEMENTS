@@ -15,7 +15,7 @@ body > p:nth-child(2) {
     position: absolute;
     text-align: justify;
     width: 60%;
-    padding-left: 18rem;
+    padding-left: 20rem;
 }
 
 /*
@@ -62,7 +62,6 @@ body {
     color: #eee;
     /*    border-radius: 70%;*/
     border: none;
-
 }
 
 nav {
@@ -88,13 +87,9 @@ nav > img {
 
 .nav-ul {
     display: inline-flex;
-
 }
 
-
 li button {
-
-
     background-color: rgb(86, 123, 149);
 }
 
@@ -118,7 +113,6 @@ li button {
 */
     display: inline-flex;
     width: inherit;
-    border: 1px solid red;
     max-width: 100%;
     /*    border: 1px solid yellow;*/
     /*    align-self: flex-end;*/
@@ -256,9 +250,16 @@ article {
 }
 */
 /*.wide {}*/
+.footer > p {
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+
 .footer > p > span {
-    border-right: 1px solid yellow;
+    border-right: 1px solid grey;
     text-decoration: underline;
+    font-size: 0.8rem;
+    padding-right: 0.2rem;
 }
 
 .grid-container > span:nth-child(3) {
@@ -310,6 +311,11 @@ article {
     padding: 2rem auto;
     max-width: 60%;
 } */
+/*
+a[strong] {
+    border-top: 1px solid blue;
+}
+*/
 .tele > img {
     width: 100%;
     padding-top: 5rem;
@@ -361,11 +367,29 @@ article {
     grid-gap: 2rem;
     max-width: 60%;
     padding-left: 30%;
-    /*    border-bottom: 1px solid red;*/
 }
 
 .bottom-container > strong {
     grid-area: 1/4/2/5;
+    /*    border-top: 1px solid red;*/
+}
+
+.topline {
+    grid-area: 1/1/2/5;
+    border-top: 1px solid grey;
+}
+
+.topcover {
+    height: 0;
+    margin-left: 20%;
+    margin-right: 22%;
+    border-top-width: thick;
+    border-color: grey;
+    border-top-style: double;
+    display: '';
+
+    opacity: 0.4;
+    padding-top: 2rem;
 }
 
 .bottom-container-main1 {
@@ -374,6 +398,10 @@ article {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: auto;
     grid-column-gap: 1rem;
+}
+
+.bottom-container a {
+    text-decoration: none;
 }
 
 /*
@@ -385,8 +413,9 @@ article {
 }
 */
 #x {
-    grid-area: 3/1/4/2;
+    grid-area: 3/1/4/4;
     color: grey;
+    border-top: 1px solid grey;
 }
 
 .bottom-container-main2 {
@@ -414,13 +443,16 @@ aside {
     /*    border: 1px solid red;*/
 }
 
-aside div {
-    border-bottom: 1px solid grey;
+aside > div {
+    border-top: 1px solid grey;
 }
 
-.newyork > a {
-    margin-left: 500px;
-    color: red;
+.newyork > div a {
+    margin-left: 400px;
+    margin-right: 50px;
+    color: blue;
+    list-style: none;
+    text-decoration: none;
 }
 
 .bottom-container-main1 div > a {
@@ -435,9 +467,21 @@ aside div {
     grid-auto-flow: column;
     max-width: 70%;
     padding-left: 20%;
-    padding-top: 5rem;
-    /*    border: 1px solid grey;*/
+
 }
+
+/*
+.newyork > div::before {
+    display: " ";
+
+    border-top-width: thick;
+    border-top-style: double;
+    border-color: blue;
+    padding-left: 50%;
+
+    border: 1px solid red;
+}
+*/
 
 .newyork > div:first-child {
     grid-row: 1/2;
@@ -477,7 +521,6 @@ ul:first-child {
 }
 */
 .underline {
-
     /*    width: 50%;*/
     height: 0;
     margin-left: 20%;
