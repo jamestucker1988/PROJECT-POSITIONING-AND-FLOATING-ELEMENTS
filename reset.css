@@ -28,7 +28,8 @@ video {
   vertical-align: baseline;
 }
 
-html5 display-role reset for older browsers article,
+/* html5 display-role reset for older browsers */
+article,
 aside,
 footer,
 header,
