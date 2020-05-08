@@ -69,24 +69,33 @@ nav {
 nav > img {
     width: 10%;
     align-self: center;
-    /*    padding-left: 30%;
- */
-
     padding-top: auto;
 }
 
-
-
-nav ul:nth-child(3) {
-
-
-
-
-    padding-left: auto;
-
-
-
+.bottom-footer > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+    border-top: 1px solid grey;
 }
+
+.date > ul {
+    list-style: none;
+    display: inline-flex;
+    width: inherit;
+    max-width: 100%;
+}
+
+.newyork > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 0.8rem;
+    color: grey;
+    list-style: none;
+}
+
 
 .nav-ul {
     display: inline-flex;
@@ -99,34 +108,15 @@ button {
 
 li button {
     background-color: rgb(86, 123, 149);
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
 
 .date {
     display: flex;
     flex-direction: row;
-
     justify-content: space-between;
 }
 
-.date > ul {
-    list-style: none;
-    display: inline-flex;
-    width: inherit;
-    max-width: 100%;
-}
+
 
 ul > li {
     padding: 0.5rem;
@@ -136,16 +126,9 @@ ul > li {
 .newyork > ul > li {
     padding: auto 0.5rem;
     width: auto;
+    font-size: 0.6rem;
 }
 
-.newyork > ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 0.8rem;
-    color: grey;
-    list-style: none;
-}
 
 .footer1 > ul {
     flex-grow: 1;
@@ -159,6 +142,7 @@ ul > li {
 
 nav ul:nth-child(3) {
     align-self: flex-start;
+    padding-left: auto;
 }
 
 ul > img {
@@ -293,12 +277,15 @@ footer > div {
 .topline {
     grid-area: 1/1/2/5;
     border-top: 1px solid grey;
+
+
 }
 
 .topcover {
     height: 0;
     margin-left: 20%;
     margin-right: 22%;
+    margin-top: 2rem;
     border-top-width: thick;
     border-color: grey;
     border-top-style: double;
@@ -361,6 +348,12 @@ aside > div {
 }
 
 .bottom-container-main1 div > a {
+    float: right;
+    color: grey;
+    font-size: 0.7rem;
+}
+
+.bottom-container-main2 div > a {
     float: right;
     color: grey;
     font-size: 0.7rem;
