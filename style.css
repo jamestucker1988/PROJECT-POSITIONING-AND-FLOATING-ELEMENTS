@@ -126,6 +126,8 @@ ul > li > a {
     padding-top: -0.5rem;
     text-decoration: none;
     color: grey;
+
+
 }
 
 .nav-ul button,
@@ -151,6 +153,8 @@ ul > li > a {
     text-decoration: none;
     padding-left: 1rem;
     color: grey;
+
+
 }
 
 .date {
@@ -183,6 +187,8 @@ ul > li {
     color: grey;
     list-style: none;
     text-decoration: none;
+
+
 }
 
 .footer1 > ul {
@@ -325,12 +331,17 @@ footer > div {
     grid-template-rows: 1rem auto 1rem auto;
     grid-gap: 2rem;
     max-width: 60%;
-    padding-left: 30%;
+    padding-left: 20%;
     font-size: 1.3rem;
 }
 
 .bottom-container > strong {
     grid-area: 1/4/2/5;
+    color: black;
+}
+
+.topline > strong {
+    color: black;
 }
 
 .topline {
@@ -342,7 +353,7 @@ footer > div {
 
 .topcover {
     height: 0;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-right: 22%;
     margin-top: 2rem;
     border-top-width: thick;
@@ -385,6 +396,10 @@ footer > div {
     max-width: 100%;
 }
 
+.grid-styling > div > p {
+    color: grey;
+}
+
 aside {
     grid-area: 2/4/5/5;
     display: flex;
@@ -415,7 +430,7 @@ aside > div {
     grid-template-rows: 1.5rem 1fr 0.5rem;
     grid-auto-flow: column;
     max-width: 70%;
-    padding-left: 20%;
+    padding-left: 15%;
 }
 
 .newyork > div:first-child {
@@ -454,8 +469,15 @@ aside > div {
 
 .bottom-footer ul li:nth-child(2) {
     padding-left: 20rem;
+
+
 }
 
 .bottom-footer ul li:nth-child(2) > span {
     padding-left: 5rem;
+}
+
+.ul li strong a {
+    font-weight: bolder;
+    color: black;
 }
