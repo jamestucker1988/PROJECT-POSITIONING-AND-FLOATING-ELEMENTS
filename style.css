@@ -189,6 +189,10 @@ ul > li {
   display: inline-flex;
 }
 
+.newyork div > a {
+  display: inline-flex;
+}
+
 .newyork > ul > li > a {
   padding: auto 0.5rem;
   width: auto;
@@ -435,7 +439,7 @@ aside > div {
   grid-auto-flow: column;
   grid-gap: 1rem;
   max-width: 80%;
-  padding-left: 5%;
+  padding-left: 10%;
 }
 
 .newyork > div:first-child {
